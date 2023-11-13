@@ -1,6 +1,6 @@
 name: Build latest (Android)
 
-on:[push]
+on: [push]
 
 concurrency:
   group: ${{ github.ref }}-android
