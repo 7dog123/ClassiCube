@@ -20,9 +20,9 @@ jobs:
         cache: gradle
 
     - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
+      run: cd android && chmod +x gradlew
     - name: Build with Gradle
-      run: ./gradlew build
+      run: cd android && ./gradlew build
 
 
     - uses: ./.github/actions/notify_failure
