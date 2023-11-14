@@ -6,6 +6,7 @@
 #include "Bitmap.h"
 #include "Errors.h"
 #include "Graphics.h"
+#include <unistd.h>
 #include <android/native_window.h>
 #include <android/native_window_jni.h>
 #include <android/keycodes.h>
